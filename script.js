@@ -93,3 +93,8 @@ newQuoteBtn.addEventListener("click", function () {
     quoteText.textContent = "Please select a mood first! 😊";
   }
 });
+
+// Update footer year dynamically
+const yearSpan = document.getElementById("year");
+const currentYear = new Date().getFullYear();
+yearSpan.textContent = currentYear;
