@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood Quote Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>✨ Daily Mood & Motivation ✨</h1>
+
+      <!-- Mood Selection Section -->
+      <div class="mood-section">
+        <h2>How are you feeling today?</h2>
+        <div class="mood-buttons">
+          <button class="mood-btn" data-mood="happy">😊 Happy</button>
+          <button class="mood-btn" data-mood="sad">😔 Sad</button>
+          <button class="mood-btn" data-mood="stressed">😰 Stressed</button>
+          <button class="mood-btn" data-mood="motivated">💪 Motivated</button>
+        </div>
+      </div>
+
+      <!-- Quote Display Section -->
+      <div class="quote-section">
+        <p id="quote-text">Select your mood to get a personalized quote!</p>
+        <button id="new-quote-btn">Get Another Quote</button>
+      </div>
+
+      <!-- Streak Counter Section -->
+      <div class="streak-section">
+        <p>🔥 Check-in Streak: <span id="streak-count">0</span> days</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+/* Reset default styles and set base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Main title */
+h1 {
+    text-align: center;
+    color: #667eea;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+/* Mood section */
+.mood-section {
+    margin-bottom: 30px;
+}
+
+.mood-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+/* Mood buttons container */
+.mood-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Individual mood buttons */
+.mood-btn {
+    background: #f0f0f0;
+    border: 2px solid #ddd;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.mood-btn:hover {
+    background: #667eea;
+    color: white;
+    border-color: #667eea;
+    transform: translateY(-2px);
+}
+
+.mood-btn.active {
+    background: #764ba2;
+    color: white;
+    border-color: #764ba2;
+}
+
+/* Quote section */
+.quote-section {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#quote-text {
+    font-size: 1.3em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* Get another quote button */
+#new-quote-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#new-quote-btn:hover {
+    background: #764ba2;
+    transform: scale(1.05);
+}
+
+/* Streak section */
+.streak-section {
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+}
+
+#streak-count {
+    font-weight: bold;
+    color: #667eea;
+    font-size: 1.3em;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 600px) {
+    .container {
+        padding: 25px;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    .mood-btn {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+    
+    #quote-text {
+        font-size: 1.1em;
+    }
+}
