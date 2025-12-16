@@ -49,7 +49,7 @@ Building this project helped me understand:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/mood-quote-generator.git
+git clone https://github.com/naydum-dev/mood-quote-generator.git
 ```
 
 2. Navigate to the project folder:
