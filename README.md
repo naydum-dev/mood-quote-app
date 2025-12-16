@@ -17,17 +17,7 @@ A web application that generates personalized motivational quotes based on your 
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-vercel-url-here.vercel.app) _(Update this after deployment)_
-
-## 📸 Screenshots
-
-### Desktop View
-
-_Add screenshot here after deployment_
-
-### Mobile View
-
-_Add screenshot here after deployment_
+[View Live Demo] mood-quote-app.vercel.app
 
 ## 🛠️ Technologies Used
 
